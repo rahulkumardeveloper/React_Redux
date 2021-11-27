@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.templatediv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: blue;
+}
+.resultbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center
+}
+.increment{
+  font-size: 40px;
+font-weight: 700;
+color: white;
+  background-color: cornflowerblue;
+border: 1px solid black;
+}
+.increment:hover{
+  cursor: pointer;
+}
+.decrement:hover{
+  cursor: pointer;
+}
+.decrement{
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+
+}
+.inputbox{
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  font-weight: 800;
+}
